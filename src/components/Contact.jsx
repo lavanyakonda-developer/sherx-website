@@ -29,7 +29,7 @@ export default function Contact() {
             <li>
               <InstagramIcon className="contact__icon" />
               <a href={INSTAGRAM_LINK} target="_blank" rel="noopener noreferrer">
-                @teamsherx
+                teamsherx
               </a>
             </li>
           </ul>
