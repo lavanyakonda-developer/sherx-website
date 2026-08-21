@@ -1,5 +1,5 @@
-import { WhatsAppIcon, PhoneIcon, MailIcon } from "./Icons";
-import { WHATSAPP_LINK, PHONE_DISPLAY, EMAIL } from "../whatsapp";
+import { WhatsAppIcon, PhoneIcon, MailIcon, InstagramIcon } from "./Icons";
+import { WHATSAPP_LINK, PHONE_DISPLAY, EMAIL, INSTAGRAM_LINK } from "../whatsapp";
 import "./Contact.css";
 
 export default function Contact() {
@@ -16,24 +16,21 @@ export default function Contact() {
           <ul className="contact__list">
             <li>
               <WhatsAppIcon className="contact__icon" />
-              <div>
-                <span className="contact__label">WhatsApp</span>
-                <span>{PHONE_DISPLAY}</span>
-              </div>
+              <span>{PHONE_DISPLAY}</span>
             </li>
             <li>
               <PhoneIcon className="contact__icon" />
-              <div>
-                <span className="contact__label">Call</span>
-                <span>{PHONE_DISPLAY}</span>
-              </div>
+              <span>{PHONE_DISPLAY}</span>
             </li>
             <li>
               <MailIcon className="contact__icon" />
-              <div>
-                <span className="contact__label">Mail</span>
-                <span>{EMAIL}</span>
-              </div>
+              <span>{EMAIL}</span>
+            </li>
+            <li>
+              <InstagramIcon className="contact__icon" />
+              <a href={INSTAGRAM_LINK} target="_blank" rel="noopener noreferrer">
+                @teamsherx
+              </a>
             </li>
           </ul>
         </div>

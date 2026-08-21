@@ -8,3 +8,4 @@ export function getWhatsAppLink(message = DEFAULT_MESSAGE) {
 export const WHATSAPP_LINK = getWhatsAppLink();
 export const PHONE_DISPLAY = "+91 98669 17160";
 export const EMAIL = "teamsherx@gmail.com";
+export const INSTAGRAM_LINK = "https://www.instagram.com/teamsherx";
