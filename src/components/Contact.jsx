@@ -1,5 +1,5 @@
 import { WhatsAppIcon, PhoneIcon, MailIcon, InstagramIcon } from "./Icons";
-import { WHATSAPP_LINK, PHONE_DISPLAY, EMAIL, INSTAGRAM_LINK } from "../whatsapp";
+import { PHONE_DISPLAY, EMAIL, INSTAGRAM_LINK } from "../whatsapp";
 import "./Contact.css";
 
 export default function Contact() {
@@ -33,20 +33,6 @@ export default function Contact() {
               </a>
             </li>
           </ul>
-        </div>
-
-        <div className="contact__cta-card">
-          <h3>Let's Connect!</h3>
-          <p>Message us on WhatsApp for a free consult and we'll set up your first session.</p>
-          <a
-            href={WHATSAPP_LINK}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="btn btn--primary contact__cta-btn"
-          >
-            <WhatsAppIcon className="contact__cta-icon" />
-            Contact Us on WhatsApp
-          </a>
         </div>
       </div>
     </section>
